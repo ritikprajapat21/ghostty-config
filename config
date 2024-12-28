@@ -1,0 +1,40 @@
+window-decoration = false
+mouse-hide-while-typing = true
+window-padding-x = 4
+window-padding-y = 8
+
+clipboard-read = "allow"
+clipboard-paste-protection = false
+
+theme = "3024 Night"
+cursor-style = block
+font-size = 10
+fullscreen = false
+background-opacity = 0.85
+
+# full screen for terminal
+window-height = 80
+window-width = 300
+
+# For tmux like keybinding
+keybind = ctrl+b>q=quit
+keybind = ctrl+b>c=new_tab
+keybind = ctrl+b>p=previous_tab
+keybind = ctrl+b>n=next_tab
+keybind = ctrl+b>o=toggle_tab_overview
+
+# to create split and navigate it
+keybind = ctrl+b>\=new_split:right
+keybind = ctrl+b>minus=new_split:down
+keybind = ctrl+b>l=goto_split:next
+keybind = ctrl+b>h=goto_split:previous
+keybind = ctrl+b>x=close_surface
+keybind = ctrl+b>equal=equalize_splits
+
+# for resizing split
+keybind = ctrl+shift+h=resize_split:left,10
+keybind = ctrl+shift+l=resize_split:right,10
+keybind = ctrl+shift+k=resize_split:up,10
+keybind = ctrl+shift+j=resize_split:down,10
+keybind = ctrl+b>r=reload_config
+shell-integration-features = no-cursor
