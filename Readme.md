@@ -8,4 +8,6 @@ Some of my favorite aspects include:
 - Customizable themes and opacity for a visually pleasing setup.
 - Tmux-like keybindings that enhance productivity.
 
-Ghostty makes terminal usage efficient and enjoyable, reflecting my preferences for simplicity and functionality. If you enjoy tweaking settings and optimizing your terminal experience, Ghostty is a great choice! 
+## Demo
+
+https://github.com/user-attachments/assets/dd583334-c66b-4cac-9772-fcc4da548d5b
